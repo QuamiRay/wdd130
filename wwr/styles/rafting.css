@@ -28,6 +28,11 @@ h1, h2 {
     color: var(--primary-color);
 }
 
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
 h1 {
     position: absolute;
     top: 20px;
@@ -39,9 +44,9 @@ h1 {
     color: #fff;
 }
 
-nav, p, section, article {
-    margin: 16px;
-    padding: 8px;
+.hero article img {
+    float: right;
+    width: 125px;
 }
 
 .socialmedia a {
@@ -49,7 +54,7 @@ nav, p, section, article {
 }
 
 .hero {
-    position: relative;
+    position: absolute;
 }
 
 .hero img {
@@ -65,8 +70,4 @@ nav, p, section, article {
 article {
     position: absolute;
     bottom: 4px;
-}
-.hero article img {
-    float: right;
-    width: 125px;
 }
